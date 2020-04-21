@@ -16,6 +16,7 @@
   .cover>img{
     height: 280px;
     object-fit: cover;
+    padding:0px 2px;  
   }
 
   .cover>img::after{
@@ -43,6 +44,14 @@
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+  }
+
+  footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightseagreen;
+    
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
